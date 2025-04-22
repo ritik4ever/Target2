@@ -1,0 +1,10 @@
+# ignore local node modules and artifacts
+node_modules
+npm-debug.log
+.DS_Store
+
+# ignore everything else except your server code
+*
+!package.json
+!package-lock.json
+!src/**
